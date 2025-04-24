@@ -1,6 +1,6 @@
 "use client"
 
-import { AreaChart } from "@/components/AreaChart"
+import { BarChart } from "@/components/BarChart"
 
 const chartdata = [
   {
@@ -65,8 +65,8 @@ const chartdata = [
   },
 ]
 
-export const AreaChartHero = () => (
-  <AreaChart
+export const BarChartHero = () => (
+  <BarChart
     className="h-80"
     data={chartdata}
     index="date"
